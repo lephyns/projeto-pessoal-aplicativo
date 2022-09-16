@@ -1,5 +1,6 @@
 * {
     font-size: 15px;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,7 +30,7 @@ body {
     font-family: 'Playball', cursive;
     font-size: 50px;
     color: #a42c14;
-    margin: 70px;
+    margin: 148px 70px 64px 70px;
 }
 
 .inputs {
@@ -41,27 +42,37 @@ body {
 }
 
 input {
-    padding: 10px 20px;
-    margin-bottom: 5px;
+    border: none;
+    padding: 12px 41px;
+    margin: 8px 0;
     width: 70%;
+    border-radius: 5px;
 }
 
 #email {
-
+    background-image: url(./imagens/mail5.svg);
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
 }
 
 #password {
-
+    background-image: url(./imagens/key5.svg);
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
 }
 
 .for-sig {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
-button {
+button {}
 
+a {
+    text-decoration: none;
+    color: #a42c14;
 }
 
 .submit {
@@ -73,9 +84,24 @@ button {
 }
 
 #entrar {
-    width: 50%;
-    height: 70%;
-    margin: 15px;
+    width: 200px;
+    height: 40px;
+    background-color: #a42c14;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#entrar:hover {
+    background-color: #a42c14;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    transform: scale(1.07);
+    transition: 700ms;
 }
 
 .content-right {
