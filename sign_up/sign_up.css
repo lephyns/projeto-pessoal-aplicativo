@@ -1,0 +1,132 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #a42c14;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container-form {
+    max-width: 850px;
+    padding: 30px 30px;
+    background-color: #c16a25;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Playball', cursive;
+    color: #fbcb38;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.first-name {
+    width: 60%;
+    border: none;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+}
+
+.input-form {
+    width: 60%;
+    border: none;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #757575;
+}
+
+.container-checkbox {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.keep-conected {
+    margin: 0px 0px 0px 10px;
+    font-size: 17px;
+    color: #fbcb38;
+    cursor: pointer;
+}
+
+.contaner-signup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button {
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px 10px 20px 10px;
+    border: none;
+    background-color: #fbcb38;
+    color: #71371d;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    transform: scale(1.07);
+    transition: 700ms;
+}
+
+.container-keep-back {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    text-decoration: none;
+    color: #fbcb38;
+}
+
+
+
